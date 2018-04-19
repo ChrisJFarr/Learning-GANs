@@ -28,6 +28,7 @@ def generator(z, out_dim, reuse=False, alpha=0.01, training=True):
         h1 = tf.maximum(alpha * h1, h1)
         # 4 x 4 x 512 output
         # TODO start here!
+        # https://github.com/udacity/deep-learning/blob/master/dcgan-svhn/DCGAN.ipynb
 
 
         # Logits and tanh output
